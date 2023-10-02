@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    margin: 0%;
+    /* background-color:green; */
+    display: inline-flex;
+    width: 100%;
+    
+
+}
+.nav img{
+    height: 60px;
+    width: 100px;
+    margin: 30px;
+}
+.navlist{
+    margin-left: 15%;
+    padding: 20px;
+}
+.navlist ul{
+    margin-left: 100px;
+
+}
+.navlist ul li{
+    margin: 20px;
+    display: inline-flex;
+    
+}
+.navlist ul li a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+}
+.navlist ul li a::after{ 
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 0%;
+    left: 0%;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navlist ul li a:hover::after{
+    width: 100%;
+}
+.navbutton{
+    justify-content: flex-end;
+    margin-left: 20%;
+    padding: 40px;
+
+}
+.navbutton button{
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+.sec1{
+    display: flex;  
+    margin: 0%;
+    padding: 0%;  
+}
+.sec1 img{
+    height:40%;
+    width: 40%;
+    margin-left: 60%;
+    padding: 20px;
+}
+.design{
+    justify-content: flex-start;
+    position: absolute;
+    margin: 50px;
+}
+.sec1 h1{
+    /* margin: 50px; */
+    font-size: 70px;
+}
+.sec1 p{
+    /* margin: 6%; */
+    font-size: 20px;
+    padding: 10px;
+}
+.sec1 button{
+    height: 50px;
+    width: 120px;
+    background-color: blueviolet;
+    margin: 12px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer; 
+    box-shadow: 5px 5px 3px black;
+}
+.sec1 i img{
+    margin: -63px;
+    margin-top: -27px;
+    padding: 23px;
+    width: 29%;
+    margin-inline-end: -18px;
+    margin-inline-start: -10px;
+}
+
+.radio-list{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 30px;
+    height: 50%;
+}
+.color{
+    border:none;
+    display: inline-flex; 
+    height:5px; 
+    width:30px;
+    border-radius:12px;
+    margin:10px 0px 0px 10px;
+}
+.radio-item1{
+    display: flex;
+    margin: 30px;
+    box-shadow: black;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: black;
+
+}
+.radio-item1:hover{
+    box-shadow:0px 0px 5px 0px;
+    background-color:white;
+}
+.radio-item1:hover .radio-item1_button{
+    content: url('https://drive.google.com/u/0/uc?id=1aEZXWrZ1jvCJCQ2cjYeQmM70dOrA-8S_&export=download');
+}
+
+
+.radio-item2{
+    margin: 30px;
+    display: flex;
+    box-shadow: black;
+    background-color:rgb(253, 248, 248);
+    border-radius:10px 10px 10px 10px;
+}
+
+.radio-item2:hover{
+    box-shadow:0px 0px 5px 0px;
+    background-color: white;
+}
+.radio-item2:hover .radio-item2_button{
+    content: url('https://drive.google.com/u/0/uc?id=1aEZXWrZ1jvCJCQ2cjYeQmM70dOrA-8S_&export=download');
+} 
+.radio-item3{
+    margin: 30px;
+    display: flex;
+    height: 50%;
+    box-shadow: black;
+    background-color:rgb(253, 248, 248);
+    border-radius:10px 10px 10px 10px;
+}
+
+.radio-item3:hover{
+    background-color: white;
+    box-shadow:0px 0px 5px 0px;
+}
+.radio-item3:hover .radio-item3_button{
+    content: url('https://drive.google.com/u/0/uc?id=1aEZXWrZ1jvCJCQ2cjYeQmM70dOrA-8S_&export=download');
+}
+
+
+.radio-item4{
+    margin: 30px;
+    display: flex;
+    box-shadow: black;
+    background-color:rgb(253, 248, 248);
+    border-radius:10px 10px 10px 10px;
+}
+.radio-item4:hover{
+    box-shadow:0px 0px 5px 0px;
+    background-color: white;
+}
+.radio-item4:hover .radio-item4_button{
+    content: url('https://drive.google.com/u/0/uc?id=1aEZXWrZ1jvCJCQ2cjYeQmM70dOrA-8S_&export=download');
+}
+
+
+
+
+
+
+
+
+
+
